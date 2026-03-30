@@ -1,0 +1,114 @@
+body {
+    background-color: #2F6B3F;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.top-container {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+
+.middle-container {
+    background-color: #7FB77E;
+}
+
+.about-me {
+    background-color: #F7C85C;
+}
+
+body {
+    color: white;
+}
+
+.programmer {
+    color:seagreen
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: "Libre Baskerville", serif;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.open-source {
+    margin-top: 50px;
+}
+
+.contact-me {
+    background-color: #7FB77E;
+}
+
+.bottom-container {
+  background-color: #2F6B3F;
+  padding: 20px
+}
+
+.text-green {
+    color:#7FB77E
+}
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 60%;
+    margin: 60px auto;
+    text-align: left;
+}
+
+.about-row h3 {
+     font-family: "Libre Baskerville", serif;
+}
+
+.about-row img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    flex-shrink: 0;   
+    border-radius: 10px;
+}
+
+.about-row .rtx {
+    width: 315px; 
+    height: 140px;
+}
+
+.rtx-row {
+    margin-left: 15%;
+}
+
+
+.profile h2 {
+    padding-top: 20px;
+}
+
+.about-me h2 {
+    padding-top: 20px;
+}
+
+.copyright {
+    margin-top: 20px; 
+}
