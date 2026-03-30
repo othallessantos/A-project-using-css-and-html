@@ -112,3 +112,77 @@ h2 {
 .copyright {
     margin-top: 20px; 
 }
+
+/* Tablet (768px ou menos) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .about-row {
+        flex-direction: column;  /* empilha imagem e texto */
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-row img {
+        width: 25%;
+        height: 200px;
+    }
+
+    .about-row .rtx {
+        width: 80%;
+        height: 160px;
+    }
+
+    .rtx-row {
+        margin-left: auto;  /* cancela o desvio para esquerda */
+    }
+
+    .intro {
+        width: 100%;
+    }
+}
+
+/* Celular (480px ou menos) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-row {
+        width: 90%;
+    }
+
+    .about-row img {
+        width: 100%;
+    }
+
+    .top-container {
+        padding-top: 60px;
+    }
+
+    .open-source {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* TV / telas grandes (1400px ou mais) */
+@media (min-width: 1400px) {
+    .about-row {
+        width: 45%;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+}
