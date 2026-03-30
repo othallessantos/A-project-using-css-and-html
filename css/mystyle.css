@@ -1,5 +1,6 @@
 body {
     background-color: #2F6B3F;
+    color: white;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -30,10 +31,6 @@ body {
 
 .about-me {
     background-color: #F7C85C;
-}
-
-body {
-    color: white;
 }
 
 .programmer {
